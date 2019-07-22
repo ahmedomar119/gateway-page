@@ -1,0 +1,153 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+
+     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <link rel="stylesheet" href="css/styles.min.css" type="text/css">
+ </head>
+ <body>
+
+    <div class="container mt-5">
+            <div class="card shadow">
+                    <div class="card-header bg-slate-100 text-dark header-elements-inline">
+                        <h6 class="card-title d-flex align-items-center"><span class="fa fa-info-circle fa-2x"></span> &nbsp Billing Information</h6>
+
+                    </div>
+                    <div class="card-body">
+                       <table class="table table-borderless" style="width:100%">
+                           <tbody>
+                            <tr>
+                                   <th>Amount due now:</th>
+    
+                               <td>
+                                   Dh150.00                               
+                                </td>
+                            </tr>
+                            <tr>
+                                    <th>Details:</th>
+                               
+                                <td>
+                                     12 monthly payments of Dh150.00                              
+                                 </td>
+                             </tr>
+                             <tr>
+                                    <th>Starting on:</th>
+                              
+                                <td>
+                                    21 Aug 2019                               
+                                 </td>
+                             </tr>
+                             <tr>
+                                    <th>Payment Method:</th>
+                               
+                                <td>
+                                    the card details provided here will be automatically debited for each payment                               
+                                 </td>
+                             </tr>
+                           </tbody>
+                        </table>
+
+                    </div>
+                    <!-- /main charts -->
+
+                </div>
+
+                <div class="card mt-3 shadow">
+                        <div class="card-header bg-slate-100 text-dark header-elements-inline d-flex justify-content-between">
+                            <h6 class="card-title d-flex align-items-center"> Credit/Depit Card</h6>
+                            <div class="header-elements">
+                                   <img src="download.jpg" height="50px" width="100%">
+                                </div>
+                        </div>
+
+                        <div class="card-body">
+                           <form>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label class="font-weight-bold">Card number</label>
+                                            <input id="cnumber" type="text"  data-mask="0000 0000 0000 0000" class="form-control" placeholder="Card number">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <label class="font-weight-bold">Expiry date</label>
+                                                <select class="form-control">
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <label class="font-weight-bold">-</label>
+                                                    <select class="form-control">
+                                                        <option value="01">2030</option>
+                                                        <option value="02">2029</option>
+                                                        <option value="03">2028</option>
+                                                        <option value="04">2027</option>
+                                                        <option value="05">2026</option>
+                                                        <option value="06">2025</option>
+                                                        <option value="07">2024</option>
+                                                        <option value="08">2023</option>
+                                                        <option value="09">2022</option>
+                                                        <option value="10">2021</option>
+                                                        <option value="11">2020</option>
+                                                        <option value="12">2019</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                        <label class="font-weight-bold">Security code</label>
+                                                        <input type="text" data-mask="000" class="form-control" placeholder="CVC">
+                                                    </div>
+                                                </div>
+                                </div>
+
+                                <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <label class="font-weight-bold">Phone number</label>
+                                                    <input type="text" class="form-control" >
+                                                </div>
+                                            </div>
+                                </div>
+
+                                <div>
+                                    <button type="button" class="btn btn-success">Make payment</button>
+                                    <button type="button" class="btn btn-danger">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /main charts -->
+    
+                    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+     
+ </body>
+
+ </html>
